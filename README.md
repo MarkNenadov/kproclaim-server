@@ -1,6 +1,12 @@
 # kproclaim-server
 A Kotlin/Spring Boot server wrapping SermonAudio's API endpoints (https://api.sermonaudio.com/) into a simple, clean, consistent GraphQL API.
 
+### Introduction ###
+
+The server is accessible at: http://localhost:8080/graphql/
+
+To experiment with the API, [GraphQL Playground](https://github.com/prisma/graphql-playground/releases) is recommended.
+
 ### GraphQL Queries ###
 
     recording(sermonId: String!): Recording
