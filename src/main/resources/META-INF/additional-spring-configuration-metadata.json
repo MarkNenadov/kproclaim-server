@@ -1,0 +1,13 @@
+{
+  "properties": [
+    {
+      "name": "sermonaudio.apiKey",
+      "type": "java.lang.String",
+      "description": "Sermonaudio api key."
+    },
+    {
+      "name": "sermonaudio.language",
+      "type": "java.lang.String",
+      "description": "Default sermonaudio language."
+    }
+  ] }

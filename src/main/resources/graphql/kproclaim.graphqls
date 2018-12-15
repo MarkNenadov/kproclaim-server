@@ -1,0 +1,40 @@
+type Speaker {
+    fullName: String!
+    portraitUrl: String!
+    bio: String
+}
+
+type RecordingSource {
+    sourceId: String!
+    displayName: String!
+}
+
+type Recording {
+    sermonId: String!
+    fullTitle: String!
+    displayTitle: String!
+    eventType: String!
+    datePublished: String!
+    speaker: Speaker!
+    source: RecordingSource!
+    mp3Url: String!
+    mp4Url: String!
+    languageCode: String!
+    downloadCount: Int!
+}
+
+input RecordingInput {
+    fullTitle: String!
+    displayTitle: String
+}
+
+type Query {
+    recording(sermonId: String!): Recording
+    recordingsBySpeaker(speakerName: String!): [Recording]
+    allRecordings: [Recording]
+    speakers(sourceId: String!): [Speaker]
+}
+
+type Mutation {
+    createRecording( recording: RecordingInput! ): Boolean
+}
