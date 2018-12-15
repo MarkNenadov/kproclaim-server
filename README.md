@@ -1,5 +1,5 @@
 # kproclaim-server
-A Kotlin/Spring Boot server wrapping SermonAudio's API endpoints (https://api.sermonaudio.com/) into a simple, clean, consistent GraphQL API.
+A Kotlin/Spring Boot server wrapping SermonAudio's API endpoints (https://api.sermonaudio.com/) into a simple, clean, consistent GraphQL API. Uses [kproclaim](https://github.com/MarkNenadov/kproclaim).
 
 ### Introduction ###
 
