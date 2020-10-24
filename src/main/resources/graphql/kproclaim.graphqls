@@ -4,8 +4,8 @@ type Speaker {
     bio: String
 }
 
-type RecordingSource {
-    sourceId: String!
+type Broadcaster {
+    broadcasterId: String!
     displayName: String!
 }
 
@@ -16,7 +16,7 @@ type Recording {
     eventType: String!
     datePublished: String!
     speaker: Speaker!
-    source: RecordingSource!
+    broadcaster: Broadcaster!
     mp3Url: String!
     mp4Url: String!
     languageCode: String!
