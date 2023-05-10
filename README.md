@@ -24,6 +24,6 @@ To experiment with the API, [GraphQL Playground](https://github.com/prisma/graph
     
 ### TODO ###
 * Update graphql dependencies (they are very ancient and inconsistently sprawled across kickstart and non kickstart deps). This will require some major reworking of graphql code.
-* Now that kproclaim 1.1 gives a more descriptive exception on bad api key, make graphql error response makes sense (right now its just Internal server error)
+* Now that kproclaim 1.1 gives a more descriptive exception on bad api key, make graphql error response make sense (right now its just Internal server error)
 * Finish implementation of mutation for create_sermon endpoint
 * Implement mutation for upload_audio
